@@ -1,5 +1,5 @@
-import Blogs from "./components/Blogs"
-import Hero from "./components/Hero"
+import ExpenseTracker from "./components/ExpenseTracker"
+import { useStore } from "./store/useStore"
 
 
 function App() {
@@ -7,8 +7,7 @@ function App() {
 
   return (
     <>
-       <Hero />
-       <Blogs />
+    <ExpenseTracker />
     </>
   )
 }
